@@ -1,0 +1,207 @@
+body{
+    background-color: rgb(8, 8, 8);
+    color: rgb(255, 255, 255);
+    font-family: poppinsregular ;
+    max-width: 2500px;
+    margin: 0 auto;
+    padding: 15px;
+    width:90%;
+    min-width:600px;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form{
+    
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    
+
+
+}
+ 
+#title{
+ flex-direction: column;
+   line-height: 10px;
+}
+
+a{
+    color: white;
+
+}
+
+a:hover{
+    color:rgb(0, 255, 42);
+    text-decoration:none;
+    transition: 0.3s all;
+       
+}
+a:link{
+    text-decoration: none;
+}
+a:active {
+    color: rgb(6, 82, 18);
+}
+
+li{
+    display: inline-block;
+    margin: 15px;
+}
+
+h1{
+    font-weight:  200;
+    user-select: none;
+}
+ main{
+    display: flex;
+    flex-direction: row; 
+    margin-top: 50px;
+
+}
+
+h2{
+    font-size: 50px;
+    font-weight: -40;
+    line-height: 10px;
+    font-family: poppinsbold; 
+    user-select: none;
+}
+
+douc{
+    color: rgb(0, 255, 42);
+}
+f2{
+    color: rgb(0, 255, 42);
+}
+p{
+    line-height: 22px;
+    max-width: 500px;
+    font-family: poppinslite;
+}
+
+img{
+    width: 800px;
+}
+
+input[type="submit"]{
+
+    padding: 10px 20px; 
+    background-color: black; 
+    color: rgb(0, 255, 42) ;
+    font-family: poppinsbold;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+    outline:0 ;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 4px 4px rgb(0, 255, 42);
+    margin-left: 62px;
+}
+
+
+
+input[type="submit"]:hover{
+
+    
+    color: white;
+   box-shadow: 4px 4px white;
+}
+
+input[type="text"]{
+     
+    display: flex;
+    padding: 20px 40px;
+    background-color: white;
+    color: black;
+    font-family: poppinsbold;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    align-items: center;
+    
+} 
+input[type="email"]{
+     
+    display: flex;
+    padding: 20px 40px;
+    background-color: white;
+    color: black;
+    font-family: poppinsbold;
+    margin-bottom: 10px;
+    align-items: left;
+    border-radius: 5px;
+} 
+
+#fig1{
+    width: 30px;
+    max-width: 50px;
+    opacity: 0;
+    border-radius: 20px;
+}
+#fig2{
+    width: 30px;
+    max-width: 50px;
+    opacity: 0;
+    border-radius: 20px;
+}
+#fig3{
+    width: 30px;
+    max-width: 50px;
+    opacity: 0;
+    border-radius: 20px;
+}
+#fig4{
+    width: 30px;
+    max-width: 50px;
+    opacity: 0;
+    border-radius: 20px;
+}
+#fig5{
+    width: 30px;
+    max-width: 50px;
+    opacity: 0;
+    border-radius: 20px;
+}
+#fig1:hover{
+    width: 30px;
+    max-width: 50px;
+    transition: 0.3s all;
+    opacity: 100%;
+    align-items: center;
+}
+#fig2:hover{
+    width: 30px;
+    max-width: 50px;
+    opacity: 100%;
+    transition: 0.3s all;
+    align-items: center;
+}
+#fig3:hover{
+    width: 30px;
+    max-width: 50px;
+    opacity: 100%;
+    transition: 0.3s all;
+    align-items: center;
+}
+#fig4:hover{
+    width: 30px;
+    max-width: 50px;
+    opacity: 100%;
+    transition: 0.3s all;
+    align-items: center;
+}
+#fig5:hover{
+    width: 30px;
+    max-width: 50px;
+    opacity: 100%;
+    transition: 0.3s all;
+     align-items: center;
+}
